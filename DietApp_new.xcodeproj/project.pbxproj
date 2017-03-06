@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91E9AB4A1E6DAD05008B3F68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E9AB491E6DAD05008B3F68 /* AppDelegate.swift */; };
+		91E9AB4C1E6DAD05008B3F68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E9AB4B1E6DAD05008B3F68 /* ViewController.swift */; };
+		91E9AB4F1E6DAD05008B3F68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E9AB4D1E6DAD05008B3F68 /* Main.storyboard */; };
+		91E9AB521E6DAD05008B3F68 /* DietApp_new.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91E9AB501E6DAD05008B3F68 /* DietApp_new.xcdatamodeld */; };
+		91E9AB541E6DAD05008B3F68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91E9AB531E6DAD05008B3F68 /* Assets.xcassets */; };
+		91E9AB571E6DAD05008B3F68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E9AB551E6DAD05008B3F68 /* LaunchScreen.storyboard */; };
+		91E9AB621E6DAD05008B3F68 /* DietApp_newTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E9AB611E6DAD05008B3F68 /* DietApp_newTests.swift */; };
+		91E9AB6D1E6DAD06008B3F68 /* DietApp_newUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E9AB6C1E6DAD06008B3F68 /* DietApp_newUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91E9AB5E1E6DAD05008B3F68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91E9AB3E1E6DAD05008B3F68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91E9AB451E6DAD05008B3F68;
+			remoteInfo = DietApp_new;
+		};
+		91E9AB691E6DAD06008B3F68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91E9AB3E1E6DAD05008B3F68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91E9AB451E6DAD05008B3F68;
+			remoteInfo = DietApp_new;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91E9AB461E6DAD05008B3F68 /* DietApp_new.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DietApp_new.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91E9AB491E6DAD05008B3F68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91E9AB4B1E6DAD05008B3F68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91E9AB4E1E6DAD05008B3F68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91E9AB511E6DAD05008B3F68 /* DietApp_new.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DietApp_new.xcdatamodel; sourceTree = "<group>"; };
+		91E9AB531E6DAD05008B3F68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91E9AB561E6DAD05008B3F68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91E9AB581E6DAD05008B3F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91E9AB5D1E6DAD05008B3F68 /* DietApp_newTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DietApp_newTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91E9AB611E6DAD05008B3F68 /* DietApp_newTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietApp_newTests.swift; sourceTree = "<group>"; };
+		91E9AB631E6DAD05008B3F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91E9AB681E6DAD06008B3F68 /* DietApp_newUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DietApp_newUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91E9AB6C1E6DAD06008B3F68 /* DietApp_newUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietApp_newUITests.swift; sourceTree = "<group>"; };
+		91E9AB6E1E6DAD06008B3F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91E9AB431E6DAD05008B3F68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E9AB5A1E6DAD05008B3F68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E9AB651E6DAD06008B3F68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91E9AB3D1E6DAD05008B3F68 = {
+			isa = PBXGroup;
+			children = (
+				91E9AB481E6DAD05008B3F68 /* DietApp_new */,
+				91E9AB601E6DAD05008B3F68 /* DietApp_newTests */,
+				91E9AB6B1E6DAD06008B3F68 /* DietApp_newUITests */,
+				91E9AB471E6DAD05008B3F68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91E9AB471E6DAD05008B3F68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91E9AB461E6DAD05008B3F68 /* DietApp_new.app */,
+				91E9AB5D1E6DAD05008B3F68 /* DietApp_newTests.xctest */,
+				91E9AB681E6DAD06008B3F68 /* DietApp_newUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91E9AB481E6DAD05008B3F68 /* DietApp_new */ = {
+			isa = PBXGroup;
+			children = (
+				91E9AB491E6DAD05008B3F68 /* AppDelegate.swift */,
+				91E9AB4B1E6DAD05008B3F68 /* ViewController.swift */,
+				91E9AB4D1E6DAD05008B3F68 /* Main.storyboard */,
+				91E9AB531E6DAD05008B3F68 /* Assets.xcassets */,
+				91E9AB551E6DAD05008B3F68 /* LaunchScreen.storyboard */,
+				91E9AB581E6DAD05008B3F68 /* Info.plist */,
+				91E9AB501E6DAD05008B3F68 /* DietApp_new.xcdatamodeld */,
+			);
+			path = DietApp_new;
+			sourceTree = "<group>";
+		};
+		91E9AB601E6DAD05008B3F68 /* DietApp_newTests */ = {
+			isa = PBXGroup;
+			children = (
+				91E9AB611E6DAD05008B3F68 /* DietApp_newTests.swift */,
+				91E9AB631E6DAD05008B3F68 /* Info.plist */,
+			);
+			path = DietApp_newTests;
+			sourceTree = "<group>";
+		};
+		91E9AB6B1E6DAD06008B3F68 /* DietApp_newUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91E9AB6C1E6DAD06008B3F68 /* DietApp_newUITests.swift */,
+				91E9AB6E1E6DAD06008B3F68 /* Info.plist */,
+			);
+			path = DietApp_newUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91E9AB451E6DAD05008B3F68 /* DietApp_new */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91E9AB711E6DAD06008B3F68 /* Build configuration list for PBXNativeTarget "DietApp_new" */;
+			buildPhases = (
+				91E9AB421E6DAD05008B3F68 /* Sources */,
+				91E9AB431E6DAD05008B3F68 /* Frameworks */,
+				91E9AB441E6DAD05008B3F68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DietApp_new;
+			productName = DietApp_new;
+			productReference = 91E9AB461E6DAD05008B3F68 /* DietApp_new.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91E9AB5C1E6DAD05008B3F68 /* DietApp_newTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91E9AB741E6DAD06008B3F68 /* Build configuration list for PBXNativeTarget "DietApp_newTests" */;
+			buildPhases = (
+				91E9AB591E6DAD05008B3F68 /* Sources */,
+				91E9AB5A1E6DAD05008B3F68 /* Frameworks */,
+				91E9AB5B1E6DAD05008B3F68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91E9AB5F1E6DAD05008B3F68 /* PBXTargetDependency */,
+			);
+			name = DietApp_newTests;
+			productName = DietApp_newTests;
+			productReference = 91E9AB5D1E6DAD05008B3F68 /* DietApp_newTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91E9AB671E6DAD06008B3F68 /* DietApp_newUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91E9AB771E6DAD06008B3F68 /* Build configuration list for PBXNativeTarget "DietApp_newUITests" */;
+			buildPhases = (
+				91E9AB641E6DAD06008B3F68 /* Sources */,
+				91E9AB651E6DAD06008B3F68 /* Frameworks */,
+				91E9AB661E6DAD06008B3F68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91E9AB6A1E6DAD06008B3F68 /* PBXTargetDependency */,
+			);
+			name = DietApp_newUITests;
+			productName = DietApp_newUITests;
+			productReference = 91E9AB681E6DAD06008B3F68 /* DietApp_newUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91E9AB3E1E6DAD05008B3F68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = jinikuadmin;
+				TargetAttributes = {
+					91E9AB451E6DAD05008B3F68 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					91E9AB5C1E6DAD05008B3F68 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 91E9AB451E6DAD05008B3F68;
+					};
+					91E9AB671E6DAD06008B3F68 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 91E9AB451E6DAD05008B3F68;
+					};
+				};
+			};
+			buildConfigurationList = 91E9AB411E6DAD05008B3F68 /* Build configuration list for PBXProject "DietApp_new" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91E9AB3D1E6DAD05008B3F68;
+			productRefGroup = 91E9AB471E6DAD05008B3F68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91E9AB451E6DAD05008B3F68 /* DietApp_new */,
+				91E9AB5C1E6DAD05008B3F68 /* DietApp_newTests */,
+				91E9AB671E6DAD06008B3F68 /* DietApp_newUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91E9AB441E6DAD05008B3F68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E9AB571E6DAD05008B3F68 /* LaunchScreen.storyboard in Resources */,
+				91E9AB541E6DAD05008B3F68 /* Assets.xcassets in Resources */,
+				91E9AB4F1E6DAD05008B3F68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E9AB5B1E6DAD05008B3F68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E9AB661E6DAD06008B3F68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91E9AB421E6DAD05008B3F68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E9AB4C1E6DAD05008B3F68 /* ViewController.swift in Sources */,
+				91E9AB521E6DAD05008B3F68 /* DietApp_new.xcdatamodeld in Sources */,
+				91E9AB4A1E6DAD05008B3F68 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E9AB591E6DAD05008B3F68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E9AB621E6DAD05008B3F68 /* DietApp_newTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E9AB641E6DAD06008B3F68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E9AB6D1E6DAD06008B3F68 /* DietApp_newUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91E9AB5F1E6DAD05008B3F68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91E9AB451E6DAD05008B3F68 /* DietApp_new */;
+			targetProxy = 91E9AB5E1E6DAD05008B3F68 /* PBXContainerItemProxy */;
+		};
+		91E9AB6A1E6DAD06008B3F68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91E9AB451E6DAD05008B3F68 /* DietApp_new */;
+			targetProxy = 91E9AB691E6DAD06008B3F68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91E9AB4D1E6DAD05008B3F68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91E9AB4E1E6DAD05008B3F68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91E9AB551E6DAD05008B3F68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91E9AB561E6DAD05008B3F68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91E9AB6F1E6DAD06008B3F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91E9AB701E6DAD06008B3F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91E9AB721E6DAD06008B3F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DietApp_new/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.docomo.DietApp-new";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		91E9AB731E6DAD06008B3F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DietApp_new/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.docomo.DietApp-new";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		91E9AB751E6DAD06008B3F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DietApp_newTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.docomo.DietApp-newTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DietApp_new.app/DietApp_new";
+			};
+			name = Debug;
+		};
+		91E9AB761E6DAD06008B3F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DietApp_newTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.docomo.DietApp-newTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DietApp_new.app/DietApp_new";
+			};
+			name = Release;
+		};
+		91E9AB781E6DAD06008B3F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DietApp_newUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.docomo.DietApp-newUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DietApp_new;
+			};
+			name = Debug;
+		};
+		91E9AB791E6DAD06008B3F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DietApp_newUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.docomo.DietApp-newUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DietApp_new;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91E9AB411E6DAD05008B3F68 /* Build configuration list for PBXProject "DietApp_new" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91E9AB6F1E6DAD06008B3F68 /* Debug */,
+				91E9AB701E6DAD06008B3F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91E9AB711E6DAD06008B3F68 /* Build configuration list for PBXNativeTarget "DietApp_new" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91E9AB721E6DAD06008B3F68 /* Debug */,
+				91E9AB731E6DAD06008B3F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		91E9AB741E6DAD06008B3F68 /* Build configuration list for PBXNativeTarget "DietApp_newTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91E9AB751E6DAD06008B3F68 /* Debug */,
+				91E9AB761E6DAD06008B3F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		91E9AB771E6DAD06008B3F68 /* Build configuration list for PBXNativeTarget "DietApp_newUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91E9AB781E6DAD06008B3F68 /* Debug */,
+				91E9AB791E6DAD06008B3F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		91E9AB501E6DAD05008B3F68 /* DietApp_new.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				91E9AB511E6DAD05008B3F68 /* DietApp_new.xcdatamodel */,
+			);
+			currentVersion = 91E9AB511E6DAD05008B3F68 /* DietApp_new.xcdatamodel */;
+			path = DietApp_new.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 91E9AB3E1E6DAD05008B3F68 /* Project object */;
+}
