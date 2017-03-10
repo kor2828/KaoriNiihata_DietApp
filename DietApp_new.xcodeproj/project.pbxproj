@@ -15,6 +15,7 @@
 		91E9AB571E6DAD05008B3F68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E9AB551E6DAD05008B3F68 /* LaunchScreen.storyboard */; };
 		91E9AB621E6DAD05008B3F68 /* DietApp_newTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E9AB611E6DAD05008B3F68 /* DietApp_newTests.swift */; };
 		91E9AB6D1E6DAD06008B3F68 /* DietApp_newUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E9AB6C1E6DAD06008B3F68 /* DietApp_newUITests.swift */; };
+		91E9ABB71E703BFD008B3F68 /* DietRecords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E9ABB61E703BFD008B3F68 /* DietRecords.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		91E9AB681E6DAD06008B3F68 /* DietApp_newUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DietApp_newUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91E9AB6C1E6DAD06008B3F68 /* DietApp_newUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietApp_newUITests.swift; sourceTree = "<group>"; };
 		91E9AB6E1E6DAD06008B3F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91E9ABB61E703BFD008B3F68 /* DietRecords.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DietRecords.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				91E9AB491E6DAD05008B3F68 /* AppDelegate.swift */,
 				91E9AB4B1E6DAD05008B3F68 /* ViewController.swift */,
 				91E9AB4D1E6DAD05008B3F68 /* Main.storyboard */,
+				91E9ABB61E703BFD008B3F68 /* DietRecords.swift */,
 				91E9AB531E6DAD05008B3F68 /* Assets.xcassets */,
 				91E9AB551E6DAD05008B3F68 /* LaunchScreen.storyboard */,
 				91E9AB581E6DAD05008B3F68 /* Info.plist */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91E9ABB71E703BFD008B3F68 /* DietRecords.swift in Sources */,
 				91E9AB4C1E6DAD05008B3F68 /* ViewController.swift in Sources */,
 				91E9AB521E6DAD05008B3F68 /* DietApp_new.xcdatamodeld in Sources */,
 				91E9AB4A1E6DAD05008B3F68 /* AppDelegate.swift in Sources */,
@@ -507,6 +511,7 @@
 				91E9AB731E6DAD06008B3F68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		91E9AB741E6DAD06008B3F68 /* Build configuration list for PBXNativeTarget "DietApp_newTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				91E9AB761E6DAD06008B3F68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		91E9AB771E6DAD06008B3F68 /* Build configuration list for PBXNativeTarget "DietApp_newUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				91E9AB791E6DAD06008B3F68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
